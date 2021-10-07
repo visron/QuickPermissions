@@ -3,9 +3,9 @@ apply plugin: 'maven'
 
 
 dependencies {
-    compile gradleApi()
-    compile localGroovy()
-    compile "com.android.tools.build:gradle:3.0.1"
-    compile "org.aspectj:aspectjtools:1.8.13"
-    compile "org.aspectj:aspectjrt:1.8.13"
+    implementation gradleApi()
+    implementation localGroovy()
+    implementation "com.android.tools.build:gradle:3.6.4"
+    implementation "org.aspectj:aspectjtools:1.9.7"
+    implementation "org.aspectj:aspectjrt:1.9.7"
 }
